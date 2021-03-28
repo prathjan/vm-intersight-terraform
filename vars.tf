@@ -59,6 +59,10 @@ variable "vm_folder" {
 
 variable "vm_count" {
   type = number
+  validation {
+    condition     = can(regex("^(1|2|3|4)$", var.vm_count))
+    error_message = "VM count must be 1 to 4."
+  }
 }
 
 // The name prefix of the virtual machines to create.

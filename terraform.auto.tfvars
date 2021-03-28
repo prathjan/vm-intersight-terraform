@@ -13,4 +13,7 @@ template_name = "Terraform-CentOS7Base"
 vm_folder = "demolab"
 vm_prefix = "V01"
 vm_domain = "lab.devnetsandbox.local"
+vm_cpu = 1
+vm_memory = 4096
+# vm_count = 1
 
