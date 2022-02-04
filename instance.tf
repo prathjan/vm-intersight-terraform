@@ -41,7 +41,6 @@ resource "vsphere_folder" "vm_folder" {
 
 
 resource "vsphere_virtual_machine" "vm_deploy" {
-  count = 1
   count            = var.vm_count
   name             = "${var.vm_prefix}-${random_string.folder_name_prefix.id}-${count.index + 1}"
   resource_pool_id = data.vsphere_resource_pool.pool.id
