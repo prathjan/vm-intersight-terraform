@@ -81,7 +81,8 @@ resource "vsphere_virtual_machine" "vm_deploy" {
 
 /*
 resource "null_resource" "vm_node_init" {
-  count = "${var.vm_count}"
+  #count = "${var.vm_count}"
+  count = 1
 
   connection {
     type = "ssh"
