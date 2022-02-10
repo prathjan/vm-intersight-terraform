@@ -19,7 +19,7 @@
 
 
 
-
+#Pablo's
 vsphere_server = "10.88.166.121"
 datacenter = "DC-prod"
 resource_pool = "iks"
