@@ -29,10 +29,10 @@ template_name = "ubuntu-tmp1"
 vm_folder = "terraform"
 vm_prefix = "terraform-"
 vm_domain = "lab14.lc"
-vm_cpu = 1
-vm_memory = 4096
+vm_cpu = 4
+vm_memory = 8192
 vm_count = 1
 vsphere_user = "administrator@vsphere.local"
-vsphere_password = "Password1."
-root_password = "cisco123"
+#vsphere_password = ""
+#root_password = ""
 
